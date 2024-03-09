@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: nginx
+  repository: 300764536284.dkr.ecr.ap-northeast-2.amazonaws.com/demo-github-actions
   pullPolicy: IfNotPresent
   tag: 476d7057c7dc24907e6d16e738e50f291d21dda8
 imagePullSecrets: []
@@ -16,7 +16,7 @@ podLabels: {}
 podSecurityContext: {}
 securityContext: {}
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 ingress:
   enabled: false
