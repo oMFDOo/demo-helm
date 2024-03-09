@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: 300764536284.dkr.ecr.ap-northeast-2.amazonaws.com/demo-github-actions
   pullPolicy: IfNotPresent
-  tag: 476d7057c7dc24907e6d16e738e50f291d21dda8
+  tag: c8f623bc7ce9b958a9a696fcf1777ecf3ffe48e9
 imagePullSecrets: []
 nameOverride: ''
 fullnameOverride: ''
